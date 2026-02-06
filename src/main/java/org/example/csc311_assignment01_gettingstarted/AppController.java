@@ -3,11 +3,19 @@ package org.example.csc311_assignment01_gettingstarted;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
+import java.awt.*;
+
 public class AppController {
     @FXML
     private Label welcomeText;
 
     // ToDo 01: add two text fields to the GUI so that the user can find the sum
+    @FXML
+    private TextField input1;
+
+    @FXML
+    private TextField input2;
+
 
     // ToDo 02: when the button is clicked show the output on the screen
 
